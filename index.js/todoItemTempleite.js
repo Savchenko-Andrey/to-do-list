@@ -4,7 +4,8 @@ const todoItemTempleite = ({ id, text, isDone, date }) => `
             <input class="checkbox" type="checkbox" name="todo-done" ${
               isDone ? "checked" : ""
             }>
-            <button class="delete" data-type="remove">x</button>
+            <button class="delete" data-type="remove">
+            &#10008</button>
         </div>
         <div>
             <span class="text-todo">${text}</span>

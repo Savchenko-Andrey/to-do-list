@@ -13,7 +13,7 @@ const items = [
   },
   {
     id: "9cccbaa2-2160-4f5c-a38a-bf57c2120e1c",
-    text: "Розібратись зі спіском li",
+    text: "Розібратись зі спіском",
     isDone: true,
     date: 1672469092494,
   },
