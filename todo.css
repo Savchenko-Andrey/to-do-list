@@ -151,3 +151,9 @@ body {
 .btn-item {
     display: flex ;
 }
+
+.modal-text {
+    color: rgb(255, 115, 0);
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}

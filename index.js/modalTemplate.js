@@ -1,6 +1,6 @@
 const modalTemplate = (text = "") => `
   <div class="modal">
-    <p>${text}</p>
+    <p class="modal-text">${text}</p>
   </div>
 `;
 
