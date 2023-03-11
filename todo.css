@@ -21,6 +21,10 @@ body {
     margin-right: 10px;
 }
 
+.active {
+    border-bottom: 2px solid rgb(255, 115, 0);
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -120,6 +124,10 @@ body {
 .success{
     transform: rotate(180deg);
     color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
 }
 
 .view {
@@ -127,6 +135,9 @@ body {
 }
 
 .delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: transparent;
     width: 24px;
     height: 24px;
