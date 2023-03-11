@@ -1,6 +1,10 @@
 body {
     width: 375px;
     height: 896px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(46, 46, 46);
 }
 
@@ -8,7 +12,7 @@ body {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
-};
+}
 
 .link-menu {
     margin-right: 15px;
