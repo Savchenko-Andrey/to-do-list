@@ -56,7 +56,7 @@ const addItem = (text) => {
     id: uuid.v4(),
     text,
     isDone: false,
-    // date: DateNow(),
+    date: new Date(),
   };
   items.unshift(newTodo);
   render();
