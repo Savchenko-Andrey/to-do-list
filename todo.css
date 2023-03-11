@@ -110,7 +110,7 @@ body {
     margin-bottom: 15px;
     border: 2px solid #b4b4b4;
     border-radius: 5px;
-    height: 150px;
+    min-height: 150px;
 }
 
 .checkbox {
