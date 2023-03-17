@@ -21,7 +21,7 @@ body {
 .text-nav {
     color: rgb(255, 115, 0);
     font-family: 'Kanit', sans-serif;
-    font-size: 25px;
+    font-size: 21px;
     margin-right: 10px;
 }
 
@@ -48,8 +48,10 @@ body {
     color: rgb(255, 115, 0);
     font-family: 'Kanit', sans-serif;
     font-size: 25px;
+    width: 250px;
     margin-top: 5px;
-    margin-left: 7px;
+    /* margin-left: 7px;
+    margin-right: 7px; */
     margin-bottom: 50px;
 }
 
@@ -62,7 +64,7 @@ body {
 }
 
 .input {
-    width: 270px;
+    width: 250px;
     height: 23px;
     margin-bottom: 25px;
     border-radius: 5px;
@@ -73,7 +75,7 @@ body {
     background-color: rgb(255, 115, 0);
     font-family: 'Kanit', sans-serif;
     color: black;
-    width: 371px;
+    width: 351px;
     height: 25px;
     border-radius: 5px;
     margin-bottom: 25px;
@@ -87,14 +89,14 @@ body {
 }
 
 .sort-by {
-    width: 298px;
+    width: 278px;
     height: 26px;
     margin-bottom: 25px;
     border-radius: 5px;
 }
 
 .qwery-input {
-    width: 310px;
+    width: 290px;
     height: 23px;
     margin-bottom: 25px;
     border-radius: 5px;
@@ -110,7 +112,7 @@ body {
 .todo-item {
     display: flex;
     justify-content: space-between;
-    width: 370px;
+    width: 350px;
     margin-bottom: 15px;
     border: 2px solid #b4b4b4;
     border-radius: 5px;
@@ -132,6 +134,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px 0 0 4px;
+    width: 47px;
 }
 
 .view {
