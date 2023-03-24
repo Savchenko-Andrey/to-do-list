@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/todo.css">
     <title>Todo List</title>
 </head>
 <body>
-   <header class="navigation">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./todos.html">Todos</a>
-        <a href="./widgets.html">Widgets</a>
-        <a href="./login.html">Login</a>
-    </nav>
-   </header>
-   <main>
-    <h1>Todo List</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, illum ipsum. Nesciunt quas aut perspiciatis quidem sit, alias a labore.</p>
+    <header class="section">
+        <nav class="navigation">
+            <h1>TODO LIST</h1>
+            <ul class="navigation-list">
+                <li>
+                    <a class="link-menu" href="./index.html"><span class="text-nav active">Archive</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./todos.html"><span class="text-nav">Todos</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./widgets.html"><span class="text-nav">Widgets</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./login.html"><span class="text-nav">Login</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <main class="section">
+    <h1 class="text-nav">Archive Todo List</h1>
    </main>
-   <!-- <script src="./index.js/todos.js" type="module" ></script> -->
 </body>
 </html>

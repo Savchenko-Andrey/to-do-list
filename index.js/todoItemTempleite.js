@@ -1,15 +1,24 @@
 const todoItemTempleite = ({ id, text, isDone, date }) => `
     <li class="todo-item" data-id="${id}">
-        <div>
-            <input class="checkbox" type="checkbox" name="todo-done" ${
+        <div class="todo-item-check">
+            <input class="checkbox" type="checkbox" hidden name="todo-done" ${
               isDone ? "checked" : ""
             }>
-            <button class="delete" data-type="remove">
-            &#10008</button>
+            <label for="checkbox" class="checkbox-before"></label>
+            
         </div>
-        <div>
-            <span class="text-todo">${text}</span>
-            <span class="text-clock">${new Date(date)}</span>
+        <div class="text-todo">
+            <div>
+                <span class="text-todo">${text}</span>
+            </div>
+            <div class="date-box">
+                <span class="text-clock">${new Date(date).toLocaleDateString(
+                  date
+                )}</span>
+                <span class="text-clock">${new Date(date).toLocaleTimeString(
+                  date
+                )}</span>
+            </div>
         </div>
         <div class="btn-item">
             
@@ -20,5 +29,5 @@ const todoItemTempleite = ({ id, text, isDone, date }) => `
 export default todoItemTempleite;
 
 {
-  /* <button class="delete" data-type="remove">X</button>; */
+  /*<button class="delete" data-type="remove">X</button> */
 }

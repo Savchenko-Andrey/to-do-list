@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/todo.css">
     <title>Todo List</title>
 </head>
 <body>
-   <header class="navigation">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./todos.html">Todos</a>
-        <a href="./widgets.html">Widgets</a>
-        <a href="./login.html">Login</a>
-    </nav>
-   </header>
-   <main>
+    <header class="section">
+        <nav class="navigation">
+            <h1>TODO LIST</h1>
+            <ul class="navigation-list">
+                <li>
+                    <a class="link-menu" href="./index.html"><span class="text-nav">Archive</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./todos.html"><span class="text-nav">Todos</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./widgets.html"><span class="text-nav">Widgets</span></a>
+                </li>
+                <li>
+                    <a class="link-menu" href="./login.html"><span class="text-nav active">Login</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <main class="section">
         <form action="" class="login-form">
             <label for="">
                 <span>Login</span>

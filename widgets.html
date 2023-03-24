@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/todo.css">
     <title>Todo List</title>
 </head>
 <body>
-   <header class="navigation">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./todos.html">Todos</a>
-        <a href="./widgets.html">Widgets</a>
-        <a href="./login.html">Login</a>
-    </nav>
-   </header>
-   <main>
+    <header class="section">
+        <nav class="navigation">
+            <h1>TODO LIST</h1>
+            <ul class="navigation-list">
+                <li class="link-menu">
+                    <a href="./todos.html"><span class="text-nav">Archive</span></a>
+                </li>
+                <li class="link-menu">
+                    <a href="./todos.html"><span class="text-nav">Todos</span></a>
+                </li>
+                <li class="link-menu">
+                    <a href="./widgets.html"><span class="text-nav active">Widgets</span></a>
+                </li>
+                <li class="link-menu">
+                    <a href="./login.html"><span class="text-nav">Login</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <main class="section">
     <div class="widgets">
         <div class="counter-1"></div>
         <div class="counter-2"></div>
