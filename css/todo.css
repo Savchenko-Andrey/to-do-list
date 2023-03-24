@@ -141,7 +141,7 @@ h1 {
 .qwery-input {
     width: 290px;
     height: 23px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     border-radius: 5px;
     font-family: 'Kanit', sans-serif;
     color: rgb(255, 115, 0);
@@ -254,3 +254,23 @@ h1 {
     font-size: 35px;
 }
 
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-login-form {
+    display: flex;
+}
+
+.text-form {
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-family: 'Kanit', sans-serif;
+    font-size: 23px;
+    margin-right: 5px;
+}

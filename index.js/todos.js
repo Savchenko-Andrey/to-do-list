@@ -9,6 +9,7 @@ const refs = {
   form: document.querySelector(".form"),
   sortBy: document.querySelector(".sort-by"),
   qweryInput: document.querySelector(".qwery-input"),
+  view: document.querySelector(".view"),
 };
 
 let qwery = "";
