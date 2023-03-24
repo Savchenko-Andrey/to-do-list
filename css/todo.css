@@ -170,7 +170,6 @@ h1 {
 }
 
 .checkbox {
-    position: relative;
     width: 17px;
     height: 17px;
     margin-top: 5px;
@@ -178,8 +177,10 @@ h1 {
 }
 
 .checkbox-before {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 5px;
+    width: 30px;
+    height: 30px;
     font-size: 14px;
     color: #555555;
     display: flex;
@@ -188,12 +189,13 @@ h1 {
 
 .checkbox-before::before {
     content:'';
-    width: 19px;
-    height: 19px;
+    width: 30px;
+    height: 30px;
     background-color: #fff;
     background-image: url(../images/archive.svg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 3px;
     margin-bottom: 30px;
 
@@ -201,6 +203,14 @@ h1 {
 
 .checkbox:checked + .checkbox-before::before {
     background-color: rgb(255, 115, 0);
+}
+
+.visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
 }
 
 .success{
