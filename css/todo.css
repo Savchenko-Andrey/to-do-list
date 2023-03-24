@@ -60,6 +60,11 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.sort-by-option {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 115, 0);
+}
 .text {
     text-align: center;
     color: rgb(255, 115, 0);
@@ -138,6 +143,8 @@ h1 {
     height: 23px;
     margin-bottom: 25px;
     border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 115, 0);
 }
 
 .todo-list {

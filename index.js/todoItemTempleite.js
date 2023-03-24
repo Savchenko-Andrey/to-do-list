@@ -1,7 +1,7 @@
 const todoItemTempleite = ({ id, text, isDone, date }) => `
     <li class="todo-item" data-id="${id}">
         <div class="todo-item-check">
-            <input class="checkbox" type="checkbox" hidden name="todo-done" ${
+            <input class="checkbox" type="checkbox" name="todo-done" ${
               isDone ? "checked" : ""
             }>
             <label for="checkbox" class="checkbox-before"></label>
